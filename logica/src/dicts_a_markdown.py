@@ -1,5 +1,11 @@
-def dicts_a_markdown(lista_documentos):
+from logica.src.separar_grupos import selector_datos_db
+
+
+def dicts_a_markdown(bbdd):
+    lista_documentos = selector_datos_db(bbdd)
+
     for documento in lista_documentos:
+
         md = ''
         
         # Añadimos el titulo/nombre 

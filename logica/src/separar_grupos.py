@@ -6,4 +6,5 @@ def selector_datos_db(db):
     lista_documentos = []
     for documento in documentos:
         lista_documentos.append(documento)
+
     return lista_documentos 
