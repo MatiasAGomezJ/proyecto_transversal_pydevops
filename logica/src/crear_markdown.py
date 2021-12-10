@@ -1,13 +1,13 @@
-from logica.src.separar_grupos import selector_datos_db
+from logica.src.obtener_documentos import obtener_documentos
 
+def crear_markdown(coleccion, diccionario):
+    
+    lista_documentos = obtener_documentos(coleccion, diccionario)
 
-def dicts_a_markdown(bbdd):
-    lista_documentos = selector_datos_db(bbdd)
-
-    for documento in lista_documentos:
-
-        md = ''
+    md = ''
         
+    for documento in lista_documentos:
+    
         # Añadimos el titulo/nombre 
         md += "# " + str(documento['NamePack']) + "\n\n"
 

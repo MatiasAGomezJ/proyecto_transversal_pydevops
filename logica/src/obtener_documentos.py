@@ -1,8 +1,5 @@
-from pymongo import MongoClient
-
-def selector_datos_db(db):
-    collection = db.packs2
-    documentos = collection.find()
+def obtener_documentos(coleccion, diccionario):
+    documentos = coleccion.find(diccionario)
     lista_documentos = []
     for documento in documentos:
         lista_documentos.append(documento)
