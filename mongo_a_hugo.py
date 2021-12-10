@@ -16,3 +16,6 @@ def mongo_a_hugo():
     # Logica ----
     crear_markdown(coleccion, {})
     # ----
+
+
+mongo_a_hugo()
