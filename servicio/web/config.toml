@@ -31,26 +31,20 @@ paginate = 10
 		# Use Markdown to format the string. This works nearly all over the theme
 		bio = "Hola, soy Matias."
 		# The icons will be shown if you enter your username
-		twitter = "MatiasAGomezJ"
+
 		github = "MatiasAGomezJ"
-		gitlab = "MatiasAGomezJ"
-		dribbble = ""
-		facebook = ""
-		googleplus = ""
-		flickr = ""
-		linkedin = ""
+		github2 = "JCMENDOZA17"
+	
 
 		copyright = [
 			"&copy; Matias & Juan.C",
-			"Design: [HTML5 UP](//html5up.net)",
-			"Demo Images: [Unsplash](//unsplash.com/)"
 		]
 
 
 	[params.about]
 		hide  = false
-		title = "Ipsum lorem dolor aliquam ante commodo magna sed accumsan arcu neque."
-		content = "Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia."
+		title = "Backus Naur S.A."
+		content = "Esta página mostrará los diferentes tipos de packs que ofrece la empresa "
 
 
 	[params.portfolio]
