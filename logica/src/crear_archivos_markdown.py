@@ -1,6 +1,5 @@
 import os
 
-
 def crear_archivos_markdown(texto_para_mardown, nombre_archivo):
     ruta = "./markdowns/"
 

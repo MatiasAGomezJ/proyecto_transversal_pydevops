@@ -17,8 +17,8 @@ def main():
     # Logica ----
     crear_markdown(coleccion, {})
     crear_markdown(coleccion, {"HasParking": True})
-    crear_markdown(coleccion, {"HasCupons": True})
-    crear_markdown(coleccion, {"HasCupons": False, "HasParking": False})
+    crear_markdown(coleccion, {"HasCupon": True})
+    crear_markdown(coleccion, {"HasCupon": False, "HasParking": False})
 
     mover_markdowns('./servicio/web/content/posts/')
     # ----

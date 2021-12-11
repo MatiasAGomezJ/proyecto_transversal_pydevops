@@ -9,5 +9,7 @@ def crear_nombre_archivo(filtro_diccionario):
 
     for item in lista:
         nombre_archivo += item + str(filtro_diccionario[item])
+    
+    nombre_archivo = nombre_archivo.lower()
 
     return nombre_archivo

@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Nuestro sitio web"
 theme = "hugo-strata-theme"
-disqusShortname = "Matias & Juan Carlos"
+disqusShortname = "Matias & JuanC"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -41,7 +41,7 @@ paginate = 10
 		linkedin = ""
 
 		copyright = [
-			"&copy; Matias",
+			"&copy; Matias & Juan.C",
 			"Design: [HTML5 UP](//html5up.net)",
 			"Demo Images: [Unsplash](//unsplash.com/)"
 		]
@@ -142,6 +142,21 @@ paginate = 10
 	weight = 10
 
 [[menu.main]]
-	name = "Prueba1"
-	url  = "posts/prueba1"
+	name = "Todos los packs"
+	url  = "posts/todos"
+	weight = 0
+
+[[menu.main]]
+	name = "Packs sin cupones ni parking"
+	url  = "posts/hascuponfalsehasparkingfalse"
+	weight = 0
+
+[[menu.main]]
+	name = "Packs con cupones"
+	url  = "posts/hascupontrue"
+	weight = 0
+
+[[menu.main]]
+	name = "Packs con parking"
+	url  = "posts/hasparkingtrue"
 	weight = 0
