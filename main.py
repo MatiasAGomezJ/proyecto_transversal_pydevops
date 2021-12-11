@@ -5,7 +5,7 @@ from acceso_datos.src.obtener_coleccion import obtener_coleccion
 from logica.src.crear_markdown import crear_markdown
 
 
-def mongo_a_hugo():
+def main():
 
     # Acceder a la base de datos ----
     cluster = obtener_cluster('mongodb+srv://m001-student:12345@sandbox.glkvp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
@@ -18,4 +18,4 @@ def mongo_a_hugo():
     # ----
 
 
-mongo_a_hugo()
+main()
