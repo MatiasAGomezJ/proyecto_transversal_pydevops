@@ -1,24 +1,17 @@
-import os
-import shutil
+from os import path, mkdir, listdir
+from shutil import copyfile
 
-rutaOrigen = 
+def mover_markdowns(ruta_destino):
+    ruta_origen = './markdowns/'
 
-rutaDestino =
+    if not path.isdir(ruta_destino):
+        mkdir(ruta_destino)
 
-if not os.path.isdir(rutaOrigen):
-    print('la primera carpeta no existe')
-elif not os.path.isdir(rutaDestino):
-    print('la segunda carpeta no existe')
+    lista_archivos_markdown = listdir(ruta_origen)
 
-else:
-    contenidos = os.listdir(rutaOrigen)
+    for archivo in lista_archivos_markdown:
 
-    for elemento in contenidos:
-        try:
-            src = os.path.join(rutaOrigen, elemento) # origen
-            dst = os.path.join(rutaDestino, elemento) # destino
-            shutil.copy(src, dst)
-            print("Correcto")
-        except:
-            print("Falló")
-            print("Error, no se pudo copia el archivo. Verifique los permisos de escritura")
+        ruta_origen_completa    = path.join(ruta_origen, archivo)
+        ruta_destino_completa   = path.join(ruta_destino, archivo)
+
+        copyfile(ruta_origen_completa, ruta_destino_completa)

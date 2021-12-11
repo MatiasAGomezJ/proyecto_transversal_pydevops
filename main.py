@@ -3,6 +3,7 @@ from acceso_datos.src.obtener_bd import obtener_bd
 from acceso_datos.src.obtener_coleccion import obtener_coleccion
 
 from logica.src.crear_markdown import crear_markdown
+from logica.src.mover_markdowns import mover_markdowns
 
 
 def main():
@@ -15,7 +16,11 @@ def main():
 
     # Logica ----
     crear_markdown(coleccion, {})
-    crear_markdown(coleccion, {"HasParking" : True})
+    crear_markdown(coleccion, {"HasParking": True})
+    crear_markdown(coleccion, {"HasCupons": True})
+    crear_markdown(coleccion, {"HasCupons": False, "HasParking": False})
+
+    mover_markdowns('./servicio/web/content/posts/')
     # ----
 
 
