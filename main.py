@@ -15,6 +15,7 @@ def main():
 
     # Logica ----
     crear_markdown(coleccion, {})
+    crear_markdown(coleccion, {"HasParking" : True})
     # ----
 
 

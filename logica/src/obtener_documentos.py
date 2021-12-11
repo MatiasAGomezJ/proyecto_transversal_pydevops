@@ -1,5 +1,5 @@
-def obtener_documentos(coleccion, diccionario):
-    documentos = coleccion.find(diccionario)
+def obtener_documentos(coleccion, filtro_diccionario):
+    documentos = coleccion.find(filtro_diccionario)
     lista_documentos = []
     for documento in documentos:
         lista_documentos.append(documento)
