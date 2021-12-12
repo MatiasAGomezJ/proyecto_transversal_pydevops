@@ -1,3 +1,3 @@
-def obtener_coleccion(db):
-    coleccion = db.packs2
+def obtener_coleccion(db, nombre_collecion):
+    coleccion = db[nombre_collecion]
     return coleccion

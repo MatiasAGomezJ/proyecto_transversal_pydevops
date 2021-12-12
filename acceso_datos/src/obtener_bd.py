@@ -1,4 +1,4 @@
-def obtener_bd(cluster):
-    bd = cluster.amenities
+def obtener_bd(cluster, nombre_bd):
+    bd = cluster[nombre_bd]
     return bd
 

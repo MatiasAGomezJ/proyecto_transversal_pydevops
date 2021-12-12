@@ -11,7 +11,7 @@ def obtener_texto_para_markdown(lista_documentos):
         texto_para_markdown += str(documento['ContentPack']) + "\n\n"
 
         # Añadimos el precio
-        texto_para_markdown += "El precio de este pack es: " + str(documento['PricePack']) + " €\n\n"
+        texto_para_markdown += "El precio de este pack es: " + str(documento['PricePack']) + "\n\n"
         
         # Añadimos si tiene cupon
         texto_para_markdown += "_Cupon_ "

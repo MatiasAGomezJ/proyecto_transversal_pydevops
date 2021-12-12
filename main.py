@@ -10,8 +10,8 @@ def main():
 
     # Acceder a la base de datos ----
     cluster = obtener_cluster('mongodb+srv://m001-student:12345@sandbox.glkvp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
-    bd = obtener_bd(cluster)
-    coleccion = obtener_coleccion(bd)
+    bd = obtener_bd(cluster, 'amenities')
+    coleccion = obtener_coleccion(bd, 'packs2')
     # ----
 
     # Logica ----
@@ -22,6 +22,5 @@ def main():
 
     mover_markdowns('./servicio/web/content/posts/')
     # ----
-
 
 main()

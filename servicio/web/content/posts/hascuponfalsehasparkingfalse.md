@@ -2,7 +2,7 @@
 
 This pack includes a bag full of sweets
 
-El precio de este pack es: Free €
+El precio de este pack es: Free
 
 _Cupon_ ❌
 
@@ -12,7 +12,7 @@ _Parking_ ❌
 
 this low-priced pack includes a bag of sweets plus an organized hotel welcome 
 
-El precio de este pack es: 5€ €
+El precio de este pack es: 5€
 
 _Cupon_ ❌
 

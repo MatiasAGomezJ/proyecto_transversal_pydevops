@@ -7,8 +7,8 @@ def crear_markdown(coleccion, filtro_diccionario):
     
     lista_documentos = obtener_documentos(coleccion, filtro_diccionario)
 
-    texto_para_mardown = obtener_texto_para_markdown(lista_documentos)
+    texto_para_markdown = obtener_texto_para_markdown(lista_documentos)
 
     nombre_archivo = crear_nombre_archivo(filtro_diccionario)
-
-    crear_archivos_markdown(texto_para_mardown, nombre_archivo)
+    
+    crear_archivos_markdown(texto_para_markdown, nombre_archivo)

@@ -35,6 +35,3 @@ In the Tier 5 Pack you will find the visit to a sweet shop with a coupon valuate
 El precio de este pack es: 70€ €
 
 _Cupon_ ✅
-
-_Parking_ ✅
-
