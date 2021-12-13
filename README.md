@@ -24,5 +24,5 @@ La arquitectura que decidimos implementar para nuestra aplicación es la denomin
 
 # Clockify
 
-![](https://i.imgur.com/prD5eRF.png)
-![](https://i.imgur.com/1iYyBre.png)
+![](https://i.imgur.com/VSqsGFB.png)
+
