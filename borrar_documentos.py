@@ -4,19 +4,28 @@ from acceso_datos.src.obtener_coleccion import obtener_coleccion
 
 def borrar_documentos(lista_diccionarios):
     
-    cluster = obtener_cluster('mongodb+srv://matias:12345@proyecto.bjagm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
-    bd = obtener_bd(cluster, 'prueba')
-    coleccion = obtener_coleccion(bd, 'prueba')
+    cluster = obtener_cluster('mongodb+srv://m001-student:12345@sandbox.glkvp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+    bd = obtener_bd(cluster, 'amenities')
+    coleccion = obtener_coleccion(bd, 'packs2')
 
     for diccionario in lista_diccionarios:
         coleccion.delete_one(diccionario)
 
 lista_diccionarios = [
     {
-        'r': 255,
-        'g': 500,
-        'b': 255
-    }
+                            "PricePack":"100 €",
+                            "NamePack":"Tier 6 Pack",
+                            "ContentPack":"This pack is amazing",
+                            "HasCupon":True,
+                            "HasParking":True
+                        },
+                        {
+                            "PricePack":"125 €",
+                            "NamePack":"Tier 7 Pack",
+                            "ContentPack":"The 7 tier pack offers as much as you can imagine",
+                            "HasCupon":True,
+                            "HasParking":True
+                        }
 ]
 
 borrar_documentos(lista_diccionarios)
