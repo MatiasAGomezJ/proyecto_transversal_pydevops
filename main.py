@@ -9,9 +9,11 @@ from logica.src.mover_markdowns import mover_markdowns
 def main():
 
     # Acceder a la base de datos ----
-    cluster = obtener_cluster('mongodb+srv://m001-student:12345@sandbox.glkvp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
-    bd = obtener_bd(cluster, 'amenities')
-    coleccion = obtener_coleccion(bd, 'packs2')
+    cluster = obtener_cluster(
+        "mongodb+srv://m001-student:12345@sandbox.glkvp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    )
+    bd = obtener_bd(cluster, "amenities")
+    coleccion = obtener_coleccion(bd, "packs2")
     # ----
 
     # Logica ----
@@ -20,7 +22,8 @@ def main():
     crear_markdown(coleccion, {"HasCupon": True})
     crear_markdown(coleccion, {"HasCupon": False, "HasParking": False})
 
-    mover_markdowns('./servicio/web/content/posts/')
+    mover_markdowns("./servicio/web/content/posts/")
     # ----
+
 
 main()

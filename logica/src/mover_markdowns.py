@@ -5,7 +5,7 @@ from shutil import copyfile
 def mover_markdowns(ruta_destino):
 
     # Guardamos la ruta donde se guardarán los archivos
-    ruta_origen = './markdowns/'
+    ruta_origen = "./markdowns/"
 
     # Comprobamos que esa ruta existe y si no, la creamos
     if not path.isdir(ruta_destino):
@@ -18,8 +18,8 @@ def mover_markdowns(ruta_destino):
     for archivo in lista_archivos_markdown:
 
         # Crea una ruta con el nombre de la carpeta y el nombre del archivo
-        ruta_origen_completa    = path.join(ruta_origen, archivo)
-        ruta_destino_completa   = path.join(ruta_destino, archivo)
+        ruta_origen_completa = path.join(ruta_origen, archivo)
+        ruta_destino_completa = path.join(ruta_destino, archivo)
 
         # Copiamos el archivo
         copyfile(ruta_origen_completa, ruta_destino_completa)

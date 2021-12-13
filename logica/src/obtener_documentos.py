@@ -14,4 +14,4 @@ def obtener_documentos(coleccion, filtro_diccionario):
 
     print("Se han extraido los documentos de la coleccion")
 
-    return lista_documentos 
+    return lista_documentos

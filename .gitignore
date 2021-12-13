@@ -1,7 +1,10 @@
 .vscode
 .cache
-
 venv/
 __pycache__
-
 .pytest_cache
+.tox
+square_root_testing.egg-info
+.coverage
+coverage_annotation
+.bandit
