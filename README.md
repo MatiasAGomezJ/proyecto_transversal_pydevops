@@ -1,15 +1,17 @@
-# PROYECTO_TRANSVERSAL_PYDEVOPS
+# **PROYECTO_TRANSVERSAL_PYDEVOPS**
 DAW DUAL 2021/22
 
-# Descripción técnica
+# ***Descripción técnica***
 
-## Arquitectura de la aplicación 
+## **Arquitectura de la aplicación** 
 
-La arquitectura que decidimos implementar para nuestra aplicación es la denominada ***"arquitectura de microservicios"***. 
+La arquitectura que decidimos implementar para nuestra aplicación es la denominada ***"arquitectura de multiples niveles (N-tier)"***. Esta nos permite desglosar la app en diferentes capas, y que las diferentes funciones estén separadas. 
 
+Gracias a esto nuestra aplicación será flexible y reutilizable y adquirimos la opción de modificar o agregar una capa específica en lugar de reelaborar toda la aplicación.
 
+![](https://i.imgur.com/KzcBKDE.png)
 
-## Tecnologías usadas
+## **Tecnologías usadas**
 
 - MongoDB
 - Python
@@ -19,10 +21,10 @@ La arquitectura que decidimos implementar para nuestra aplicación es la denomin
     - shutil
 - Hugo
 
-# Diagrama de componentes
+# ***Diagrama de componentes***
 ![](https://i.imgur.com/DJrBliV.png)
 
-# Clockify
+# ***Clockify***
 
 ![](https://i.imgur.com/VSqsGFB.png)
 
