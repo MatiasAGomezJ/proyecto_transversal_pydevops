@@ -23,3 +23,5 @@ def mover_markdowns(ruta_destino):
 
         # Copiamos el archivo
         copyfile(ruta_origen_completa, ruta_destino_completa)
+
+    print("Se han movido los archivos a la siguiente ruta: " + ruta_destino)

@@ -12,4 +12,6 @@ def obtener_documentos(coleccion, filtro_diccionario):
     for documento in documentos:
         lista_documentos.append(documento)
 
+    print("Se han extraido los documentos de la coleccion")
+
     return lista_documentos 

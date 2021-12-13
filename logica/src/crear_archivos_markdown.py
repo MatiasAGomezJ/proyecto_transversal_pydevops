@@ -20,3 +20,6 @@ def crear_archivos_markdown(texto_para_markdown, nombre_archivo):
     archivo.write(texto_para_markdown)
     # Cerramos el archivo
     archivo.close()
+
+    print("Se han creado el markdown con nombre: " + nombre_archivo + ".md")
+    print("--------")
