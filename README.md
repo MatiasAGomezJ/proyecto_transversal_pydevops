@@ -167,7 +167,7 @@ Despues estan separadas del resto las demás funciones CRUD.
 3. Para acabar esta la función `borrar_documentos(lista_diccionarios)` que borra todos los documentos que esten en la lista.
 
 ## **Esquema**
-```json
+```python
 {
 	'_id': ObjectID(90823649081326749082136492304),
 	'PricePack': String,
