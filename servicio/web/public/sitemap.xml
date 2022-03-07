@@ -3,15 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>/posts/hascuponfalsehasparkingfalse/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>/posts/hascupontrue/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>/posts/hasparkingtrue/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/todos/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
